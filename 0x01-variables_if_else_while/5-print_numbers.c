@@ -3,17 +3,18 @@
 #include <time.h>
 
 /**
- * main -Entry
+ * Main - Entry
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char low;
+	int n;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-	putchar('\n');
+	if (n == 0 && n <= 9)
+		printf("%d", n);
+	printf('\n');
+
 	return (0);
 }

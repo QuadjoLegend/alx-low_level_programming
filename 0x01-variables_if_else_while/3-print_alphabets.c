@@ -3,14 +3,15 @@
 #include <time.h>
 
 /**
- * Main - Entry
+ * main - Entry point
+ * Print lowercase alphabets and then in uppercase
  *
  * Return: Always 0 (Success)
+ *
  */
 
 int main(void)
 {
-/* Print lowercase and uppercase alphabets*/
 	char low;
 	char upper;
 

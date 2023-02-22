@@ -2,9 +2,10 @@
 
 /**
  * add - function adds two integers
- * @int: takes in integers for the function
+ * @a: takes in first integer
+ * @b: takes in second integer
  *
- * Return: results
+ * Return: result
  */
 
 int add(int a, int b)
